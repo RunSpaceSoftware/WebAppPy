@@ -7,4 +7,4 @@ def say_hello(request):
     return HttpResponse("Hello saxy lady")
 
 def home(request):
-    return render(request, 'hello.html')
+    return render(request, 'index.html')
